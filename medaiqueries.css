@@ -1,17 +1,17 @@
-@media screen and (max-width: 1000px)
-{
-	.last-section-wrapper  {
+}
+@media screen and (max-width: 1024px){
+	.grid-container{
+		display: grid;
+	    grid-template-columns: auto;
+	}
+}
+@media screen and (max-width: 1024px){
+	.footer-wrapper{
+        display: grid;
+	    grid-template-columns: auto;
+    }
+}
+@media screen and (max-width:1024px){
+	.last-section-wrapper {
 		flex-direction: column;
-}
-}
-@media screen and (max-width: 1000px)
-{
-.grid-container{
-		display: flex;
-		flex-direction: column;
-}
-.footer-wrapper{
-	display: flex;
-	flex-direction: column;
-}
-}
+	}
