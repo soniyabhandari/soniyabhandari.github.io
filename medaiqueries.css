@@ -1,151 +1,17 @@
-/*
-	.tiles-wrapper > .tiles-column-wrapper{
+@media screen and (max-width: 1000px)
+{
+	.last-section-wrapper  {
+		flex-direction: column;
+}
+}
+@media screen and (max-width: 1000px)
+{
+.grid-container{
+		display: flex;
+		flex-direction: column;
+}
+.footer-wrapper{
 	display: flex;
 	flex-direction: column;
-	margin: 80px;
 }
-.tiles-wrapper{
-	height:620px;
-}
-i{
-	font-size: 1.5em;
-}
-
-}
-
-@media screen and (max-width: 450px){
-	.tiles-wrapper{
-	height:750px;
-}
-
-@media screen and (max-width: 340px){
-	.tiles-wrapper{
-	height:950px;
-}
-
-}*/
-@media screen and (max-width: 768px) {
-
-	.navigation-wrapper{
-		flex-direction: column;
-		height: 100%;
-		align-items:center;
-	}
-
-	.navigation-wrapper > .left-column{
-		width: 100%;
-		align-items:center;
-	}
-
-	.navigation-wrapper > .nav-link-container{
-		width: 100%;
-		display:flex;
-		flex-direction: column;
-    }
-    .image{
-        width: 100px;
-        height: auto;
-       
-    }
-    .OuterContainer{
-        height: 100%;
-    }
-
-    .OuterContainer > .InnerContainer {
-        flex-direction: column;
-        height: 100%;
-        align-items: center;
-    }
-
-    .OuterContainer > .InnerContainer > .demoElements {
-        width : 100%;
-        display: flex;
-        flex-direction: column;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .outercontainer {
-        flex-direction: column;
-        height : 100%;
-        align-items: center;
-    }
-
-    .outercontainer > .innercontainer {
-        flex-direction: column;
-        height : 100%;
-        align-items: center;
-    }
-
-    .outercontainer > .innercontainer > .demoelements { 
-        width :100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .outtercontainer {
-        flex-direction: column;
-        height : 100%;
-        align-items: center;
-    }
-
-    .outtercontainer > .innnercontainer {
-        flex-direction: column;
-        height : 100%;
-        align-items: center;
-    }
-
-    .outtercontainer > .innnercontainer > .demoeelements { 
-        width :100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .footer{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .footer > .footercontainer{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        height: auto;
-    }
-
-    .footer > .footercontainer > .footerline1 h1{
-        display: flex;
-        width: 100%;
-        align-items: center;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .footerline2 h2{
-        display: flex;
-        width: 100%;
-        align-items: center;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .footerline3 h3{
-        display: flex;
-        width: 100%;
-        align-items: center;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .footercontainer > .Footer-Elements > .Footer-logo{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        margin-left: 10px;
-        margin-right: 10px;
-        align-items: center;
-    }
 }
